@@ -12,12 +12,16 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #bbbbbb;
+    color: #dddddd;
 }
 
 /* selected link */
 a:active {
     color: #bbbbbb;
+}
+
+em {
+	font-style: italic;
 }
 
 h1 {
@@ -163,7 +167,7 @@ footer {
 	margin-left: 7px;
 }
 
-/* portfolio specific css */
+/* portfolio page css */
 
 h3 {
 	background-color: #4aaaa5;
@@ -221,4 +225,29 @@ h3 {
     background-size: cover;
     float: left;
     margin-top: 40px;
+}
+
+/* contact page css */
+
+button {
+	background-color: #4aaaa5;
+	border: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	width: 100px;
+	height: 40px;
+}
+
+input {
+	padding: 7px 10px;
+	color: #dddddd;
+	font-size: 14px;
+	width: 563px;
+	margin: 5px 0px;
+}
+
+#messageInput {
+	height: 200px;
+	margin-bottom: 15px;
 }
