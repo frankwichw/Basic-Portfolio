@@ -162,3 +162,63 @@ footer {
 #contact {
 	margin-left: 7px;
 }
+
+/* portfolio specific css */
+
+h3 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.3em;
+	line-height: 2em;
+	text-align: center;
+	padding: 5px;
+	margin-top: 140px;
+}
+
+#portfolioOne {
+	background-image: url(../images/portfolio1.jpg);
+    width: 272px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+#portfolioTwo {
+	background-image: url(../images/portfolio2.jpg);
+    width: 272px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin-top: 30px;
+}
+
+#portfolioThree {
+	background-image: url(../images/portfolio3.jpg);
+    width: 272px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+#portfolioFour {
+	background-image: url(../images/portfolio4.jpg);
+    width: 272px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin-top: 40px;
+}
+
+#portfolioFive {
+	background-image: url(../images/portfolio5.jpg);
+    width: 272px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin-top: 40px;
+}
