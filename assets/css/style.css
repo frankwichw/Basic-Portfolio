@@ -1,13 +1,13 @@
 /* unvisited link */
 a:link {
-    color: #bbbbbb;
+    color: #d3d3d3;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #bbbbbb;
+    color: #d3d3d3;
 }
 
 /* mouse over link */
@@ -17,11 +17,15 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #bbbbbb;
+    color: #d3d3d3;
 }
 
-em {
-	font-style: italic;
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-image: url('../images/ep_naturalwhite.png');
 }
 
 h1 {
@@ -45,30 +49,27 @@ hr {
 	border: 1px solid #dddddd;
 }
 
-nav {
-	float: left;
-	margin-top: 30px;
+footer {
+	background-color: #666666;
+	border-top: 5px;
+	border-color: #4aaaa5;
+	border-style: solid;
+	height: 60px;
+	color: #dddddd;
+	text-align: center;
 }
 
-body {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	font-size: 16px;
-	line-height: 1.5em;
-	background-image: url('../images/ep_naturalwhite.png');
+.centeredNav {
+	margin: auto;
+	width: 926px;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
+.centered {
+	margin: auto;
+	width: 960px;
 }
 
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -60px;
-}
-
-header {
+#header {
 	border-bottom: 3px;
 	border-color: #cccccc;
 	border-style: solid;
@@ -76,68 +77,55 @@ header {
 	height: 90px;
 }
 
-footer {
-	background-color: #666666;
-	border-top: 5px;
-	border-color: #4aaaa5;
-	border-style: solid;
-	height: 60px;
-	width: 100%;
-	clear: both;
-}
-
 #name {
 	background-color: #4aaaa5;
-	height: 90px;
+	height: 86px;
 	width: 400px;
-	float: left;
-	margin-right: 356px;
 }
 
-#nameHeader {
+#myName {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.7em;
+	line-height: 1.7em;
+	font-weight: bold;
 	color: #FFF;
-	text-align: center;
-	overflow: auto;
-	margin-top: 10px;
+	margin: auto;
+	width: 320px;
 }
 
-#margin {
-	margin: auto;
-	width: 960px;
+#about {
+	border-right: 1px solid #d3d3d3;
+	margin-top: 30px;
+	padding: 0px 11px 0px 0px;
 }
 
-#marginHeader {
-	width: 960px;
-	margin: auto;
+#portfolio {
+ 	border-right: 1px solid #d3d3d3;
+ 	margin-top: 30px;
+ 	padding: 0px 11px 0px 11px;
+}
+
+#contact {
+	margin-top: 30px;
+	padding: 0px 0px 0px 11px;
 }
 
 #mainContent {
 	border-color: #dddddd;
 	border-width: 2px;
 	border-style: solid;
-	float: left;
 	background-color: #FFF;
-	width: 586px;
-	margin: 40px 40px 40px 0px;
-	padding: 30px;
+	padding: 0px 30px 30px 30px;
 }
 
-#pic {
-	width: 250px;
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 5px;
+.mainContentMain {
+	margin: 20px 40px 40px 0px;
+	width: 650px;
 }
 
-#connect {
-	border-color: #dddddd;
-	border-width: 2px;
-	border-style: solid;
-	float: left;
-	background-color: #FFF;
-	width: 206px;
-	margin: 40px 0px 40px 0px;
-	padding: 30px;
+.mainContentConnect {
+	margin: 20px 0px 20px 0px;
+	width: 270px;
 }
 
 #copyright {
@@ -145,26 +133,6 @@ footer {
 	text-align: center;
 	margin-top: 40px;
 	line-height: 1em;
-}
-
-.squareImage {
-	width: 55px;
-	margin: 5px;
-}
-
-#about {
-	padding-right: 11px;
-	border-right: 1px solid #d3d3d3;
-}
-
-#portfolio {
-	padding-right: 11px;
- 	margin-left: 8px;
- 	border-right: 1px solid #d3d3d3;
-}
-
-#contact {
-	margin-left: 7px;
 }
 
 /* portfolio page css */
@@ -187,8 +155,8 @@ h3 {
     background-size: cover;
     float: left;
     margin-right: 40px;
-    margin-top: 30px;
-}
+    margin-top: 15px;
+ }
 
 #portfolioTwo {
 	background-image: url(../images/portfolio2.jpg);
@@ -196,7 +164,7 @@ h3 {
     height: 200px;
     background-size: cover;
     float: left;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #portfolioThree {

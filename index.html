@@ -7,66 +7,77 @@
 	</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
 </head>
 <body>
 
-<div class='wrapper'>
-	<header>
+<nav class="navbar navbar-default" id='header'>
+<div class="container">
+	<div class='centeredNav'> 
+		<!-- <div class="container-fluid"> -->
+		    <div class="navbar-header">
+		    	<a class="navbar-brand" href="index.html" id='name'><div id='myName'>Wenona Frankwich</div></a>
+		    </div>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="index.html" id='about'>About</a></li>
+		       	<li><a href="portfolio.html" id='portfolio'>Portfolio</a></li>
+		       	<li><a href="contact.html" id='contact'>Contact</a></li>
+		      </ul>
+  		<!-- </div> --> <!--  /.container-fluid -->
+	</div>
+</div>
+</nav>
 
-	<div id='marginHeader'>
+<div class='container'>
 
-		<div id='name'>
-			<h1 id='nameHeader'>Wenona Frankwich</h1>
+	<div class='row'>
+
+		<div class='centered'>
+
+			<div class='col-lg-7 mainContentMain' id='mainContent'>
+				<h1>About Me</h1> 
+				<hr>
+				<img src='http://lorempixel.com/output/animals-q-c-640-480-2.jpg' id='pic' style='width: 250px;float: left;margin-right: 20px;margin-bottom: 5px;'>
+				<p>
+					I was born in Rochester, New York, and I currently live in Longwood, Florida. I got my Bachelor's of Fine Arts with a focus on painting in 2016 from the University of Florida. I have been interested in web development since a young age, and I am interested in advancing my skills and pursuing it as a career.
+				</p>
+
+				<p>
+					I have technically seen seals before, but apparently I was too young to remember it. I hope to visit California in the near future to see elephant seals while they are hauled out. I am also a horror fan, one day I want to publish my own short horror stories, I just have to write them first. I have two cats: Xiomara and Parker. Their talents are bringing lizards in the house and being a lump, respectively.
+				</p>
+			</div>
+
+			<div class='col-lg-3 mainContentConnect' id='mainContent'>
+				<h2>Connect with Me</h2>
+				<hr>
+					<a href='https://github.com/frankwichw' target='_blank'>
+						<img class='squareImage' src='assets/images/githubsquare.png' alt='Github' style='width: 55px;margin: 5px;'>
+					</a>
+
+					<a href='https://www.linkedin.com/in/wenona-frankwich-b17208148/' target='_blank'>
+						<img class='squareImage' src='assets/images/linkedinsquare.png' alt='Linkedin' style='width: 55px;margin: 5px;'>
+					</a>
+
+					<a href='https://stackoverflow.com/users/8678383/w-frankwich' target='_blank'>
+						<img class='squareImage' src='assets/images/overflowsquare.png' alt='Stackoverflow' style='width: 55px;margin: 5px;'>
+					</a>
+			</div>
+
 		</div>
 
-		<nav>
-			<a href='index.html' id='about'>About</a>
-			<a href='portfolio.html' id='portfolio'>Portfolio</a>
-			<a href='contact.html' id='contact'>Contact</a>
-		</nav>
-
-	</div>
-
-	</header>
-
-<div id='margin'>
-
-	<div id='mainContent'>
-		<h1>About Me</h1>
-		<hr>
-			<img src='http://lorempixel.com/output/animals-q-c-640-480-2.jpg' id='pic'>
-		<p>
-			I was born in Rochester, New York, and I currently live in Longwood, Florida. I got my Bachelor's of Fine Arts with a focus on painting in 2016 from the University of Florida. I have been interested in web development since a young age, and I am interested in advancing my skills and pursuing it as a career.
-		</p>
-
-		<p>
-			I have technically seen seals before, but apparently I was too young to remember it. I hope to visit California in the near future to see elephant seals while they are hauled out. I am also a horror fan, one day I want to publish my own short horror stories, I just have to write them first. I have two cats: Xiomara and Parker. Their talents are bringing lizards in the house and being a lump, respectively.
-		</p>
-	</div>
-
-	<div id='connect'>
-		<h2>Connect with Me</h2>
-		<hr>
-			<a href='https://github.com/frankwichw' target='_blank'>
-				<img class='squareImage' src='assets/images/githubsquare.png' alt='Github'>
-			</a>
-
-			<a href='https://www.linkedin.com/in/wenona-frankwich-b17208148/' target='_blank'>
-				<img class='squareImage' src='assets/images/linkedinsquare.png' alt='Linkedin'>
-			</a>
-
-			<a href='https://stackoverflow.com/users/8678383/w-frankwich' target='_blank'>
-				<img class='squareImage' src='assets/images/overflowsquare.png' alt='Stackoverflow'>
-			</a>
 	</div>
 
 </div>
 
-	<footer>
-		<p id='copyright'>Copyright © Wenona Frankwich</p>
-	</footer>
-</div>
+<footer class="footer">
+    <div class="">
+    	<span id="copyright">Copyright © Wenona Frankwich</span>
+    </div>
+</footer>
+
+
 
 </body>
+</html>
