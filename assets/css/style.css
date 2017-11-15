@@ -64,11 +64,6 @@ footer {
 	width: 926px;
 }
 
-.centered {
-	margin: auto;
-	width: 960px;
-}
-
 #header {
 	border-bottom: 3px;
 	border-color: #cccccc;
@@ -118,14 +113,19 @@ footer {
 	padding: 0px 30px 30px 30px;
 }
 
+
 .mainContentMain {
-	margin: 20px 40px 40px 0px;
-	width: 650px;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 .mainContentConnect {
-	margin: 20px 0px 20px 0px;
-	width: 270px;
+	margin: 20px 0px 40px 0px;
+}
+
+.centered {
+	margin: auto;
+	width: 210px;
 }
 
 #copyright {
@@ -219,3 +219,29 @@ input {
 	height: 200px;
 	margin-bottom: 15px;
 }
+
+
+@media only screen and (min-width: 1200px) {
+   
+    .centeredNav {
+		margin: auto;
+		width: 1138px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+   
+    .centeredNav {
+		margin: auto;
+		width: 937px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+   
+    .centeredNav {
+		margin: auto;
+		width: 718px;
+	}
+}
+
