@@ -105,7 +105,7 @@ footer {
 	padding: 0px 0px 0px 11px;
 }
 
-#mainContent {
+.mainContent {
 	border-color: #dddddd;
 	border-width: 2px;
 	border-style: solid;
@@ -133,6 +133,15 @@ footer {
 	text-align: center;
 	margin-top: 40px;
 	line-height: 1em;
+}
+
+/* index page css */
+
+#pic {
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px;
 }
 
 /* portfolio page css */
@@ -211,7 +220,7 @@ input {
 	padding: 7px 10px;
 	color: #dddddd;
 	font-size: 14px;
-	width: 563px;
+	width: 100%;
 	margin: 5px 0px;
 }
 
@@ -227,6 +236,44 @@ input {
 		margin: auto;
 		width: 1138px;
 	}
+
+	#portfolioOne {
+   		width: 338px;
+    	height: 249px;
+	 }
+
+	#portfolioTwo {
+	    width: 338px;
+    	height: 249px;
+	}
+
+	#portfolioThree {
+	    width: 338px;
+    	height: 249px;
+	}
+
+	#portfolioFour {
+	    width: 338px;
+    	height: 249px;
+	}
+
+	#portfolioFive {
+	    width: 338px;
+    	height: 249px;
+	}
+
+	h3 {
+		font-size: 1.7em;
+		line-height: 2em;
+		padding: 5px;
+		margin-top: 170px;
+	}
+
+	/*
+	.xsOffset {
+		display: none;
+	}
+	*/
 }
 
 @media only screen and (max-width: 1199px) {
@@ -235,13 +282,190 @@ input {
 		margin: auto;
 		width: 937px;
 	}
+
+	#portfolioOne {
+   		width: 270px;
+    	height: 199px;
+	 }
+
+	#portfolioTwo {
+	    width: 270px;
+    	height: 199px;
+	}
+
+	#portfolioThree {
+	    width: 270px;
+    	height: 199px;
+	}
+
+	#portfolioFour {
+	    width: 270px;
+    	height: 199px;
+	}
+
+	#portfolioFive {
+	    width: 270px;
+    	height: 199px;
+	}
+
+	h3 {
+		font-size: 1.3em;
+		line-height: 2em;
+		padding: 5px;
+		margin-top: 140px;
+	}
+
+	/*
+	.xsOffset {
+		display: none;
+	}
+	*/
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 991px) {
    
     .centeredNav {
 		margin: auto;
 		width: 718px;
 	}
+
+	#portfolioOne {
+   		width: 323px;
+    	height: 238px;
+	 }
+
+	#portfolioTwo {
+	    width: 323px;
+    	height: 238px;
+	}
+
+	#portfolioThree {
+	    width: 323px;
+    	height: 238px;
+	}
+
+	#portfolioFour {
+	    width: 323px;
+    	height: 238px;
+	}
+
+	#portfolioFive {
+	    width: 323px;
+    	height: 238px;
+	}
+
+	h3 {
+		font-size: 1.7em;
+		line-height: 2em;
+		padding: 5px;
+		margin-top: 160px;
+	}
+
+	/*
+	.xsOffset {
+		display: none;
+	}
+	*/
+}
+
+@media only screen and (max-width: 767px) {
+   
+    #name {
+		background-color: #4aaaa5;
+		height: 86px;
+		width: 100%;
+	}
+
+	#header {
+		height: 180px;
+		padding: 0px;
+	}
+
+	.centeredNav {
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+
+	#navContainer {
+		padding: 0px;
+	}
+
+	.linksCenter {
+		width: 350px;
+		margin: auto;
+	}
+
+	#about {
+		margin-top: 0px;
+		padding: 0px 11px 0px 0px;
+		width: 50px;
+		display: inline;
+	}
+
+	#portfolio {
+ 		margin-top: 0px;
+ 		padding: 0px 11px 0px 11px;
+ 		width: 50px;
+ 		display: inline;
+	}
+
+	#contact {
+		padding: 0px 0px 0px 11px;
+		width: 50px;
+		display: inline;
+	}
+
+	.nav>li {
+		padding: 0px;
+		display: inline;
+	}
+
+	.nav {
+		padding-top: 30px;
+		margin: auto;
+		width: 215px;
+	}
+
+	#portfolioOne {
+   		width: 100%;
+    	height: 400px;
+	 }
+
+	#portfolioTwo {
+	    width: 100%;
+    	height: 400px;
+	}
+
+	#portfolioThree {
+	   	width: 100%;
+    	height: 400px;
+	}
+
+	#portfolioFour {
+	   	width: 100%;
+    	height: 400px;
+	}
+
+	#portfolioFive {
+	    width: 100%;
+    	height: 400px;
+	}
+
+	h3 {
+		font-size: 1.7em;
+		line-height: 2em;
+		padding: 5px;
+		margin-top: 310px;
+	}
+
+	#pic {
+		width: 100%;
+	}
+
+	/* 
+	.xsOffset {
+		display: initial;
+	}
+	*/
 }
 
