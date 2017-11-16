@@ -1,24 +1,25 @@
-/* unvisited link */
-a:link {
-    color: #d3d3d3;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-decoration: none;
-}
 
-/* visited link */
-a:visited {
-    color: #d3d3d3;
-}
+	/* unvisited link */
+	a: link{
+    	color: #d3d3d3;
+    	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    	text-decoration: none;
+	}
 
-/* mouse over link */
-a:hover {
-    color: #dddddd;
-}
+	/* visited link */
+	a:visited {
+    	color: #d3d3d3;
+	}
 
-/* selected link */
-a:active {
-    color: #d3d3d3;
-}
+	/* mouse over link */
+	a:hover {
+    	color: #dddddd;
+	}
+
+	/* selected link */
+	a:active {
+    	color: #d3d3d3;
+	}
 
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -129,7 +130,7 @@ footer {
 }
 
 #copyright {
-	color: #dddddd;
+	color: #828282;
 	text-align: center;
 	margin-top: 40px;
 	line-height: 1em;
