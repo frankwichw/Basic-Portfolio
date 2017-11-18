@@ -129,6 +129,10 @@ footer {
 	width: 210px;
 }
 
+.footerHelper {
+	height: 100%;
+}
+
 #copyright {
 	color: #828282;
 	text-align: center;
